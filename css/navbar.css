@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.navbar {
+	border:0 !important;	
+	z-index:1000;
+	background-color:#145A32;	
+	border-radius:0px;
+}
+
+.navbar a {
+	color:#fff;	
+	-webkit-transition: color 1s, background-color 1s;
+	transition: color 1s, background-color 1s;
+	/*text-transform:uppercase;*/
+}
+
+.navbar li.active a {
+	color:#145A32 !important;
+	background-color:#fff !important;
+}
+
+.navbar a:hover {
+	color:#145A32 !important;
+	background-color:#fff !important;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+}
+
+.affix + .container-fluid {
+	padding-top: 70px;
+}
+
